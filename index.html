@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PeliManía - Revive la mágia del cine en casa</title>
+</head>
+<body bgcolor="#f0f0f0">
+    
+    <!-- Logo y slogan -->
+
+    <table width="100%" bgcolor="#000000">
+        <tr>
+            <td width="100%">
+                <table width="100%">
+                    <tr>
+                        <td width="20%">
+                            <center>
+                                <img src="logo.png" width="100" height="100" alt="CineMax Logo">
+                            </center>
+                        </td>
+                        <td width="80%">
+                            <center>
+                                <font color="white" size="6"><b>PeliManía</b></font><br>
+                                <font color="yellow" size="4">Revive la mágia del cine en casa</font>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Barra de navegación -->
+    
+    <table width="100%" bgcolor="#333333">
+        <tr>
+            <td>
+                <center>
+                    <font color="white">
+                        <a href="#inicio"><font color="white">Inicio</font></a> |
+                        <a href="#peliculas"><font color="white">Películas</font></a> |
+                        <a href="#contacto"><font color="white">Contacto</font></a>
+                    </font>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Mensaje de bienvenida -->
+
+    <table width="100%" bgcolor="#dddddd">
+        <tr>
+            <td>
+                <marquee behavior="alternate" scrollamount="10">
+                    <font color="red" size="5">¡Bienvenido a PeliManía! Grandes ofertas disponibles.</font>
+                </marquee>
+            </td>
+        </tr>
+    </table>
+
+    
+    <center>
+      <h1><font color="#0000FF">¡Encuentra tu película!</font></h1>
+    </center>
+    
+    <!-- Sección de películas -->
+    
+    <table width="100%" cellpadding="10">
+        <tr>
+            <td width="33%">
+                <center>
+                    <img src="joker.png" width="150" height="200" alt="El joker"><br>
+                    <font color="#006600"><b>El joker</b></font><br>
+                    El Joker (2019) narra el descenso de Arthur Fleck, un hombre marginado, hacia la locura, convirtiéndose en el villano Joker en una sociedad que lo ignora y oprime.
+                </center>
+            </td>
+            <td width="33%">
+                <center>
+                    <img src="linterna-verde.jpg" width="150" height="200" alt="Linterna verde"><br>
+                    <font color="#006600"><b>linterna Verde</b></font><br>
+                    Linterna Verde (2011) sigue a Hal Jordan, un piloto que recibe un anillo de poder que lo convierte en parte de una fuerza intergaláctica encargada de proteger el universo, enfrentando a un temible villano llamado Parallax.
+                </center>
+            </td>
+            <td width="33%">
+                <center>
+                    <img src="Dragonball.jpg" width="150" height="200" alt="Dragon Ball Evolution"><br>
+                    <font color="#006600"><b>Dragon Ball Evolution</b></font><br>
+                    Dragonball Evolution (2009) sigue a Goku, un joven que debe reunir las Esferas del Dragón para detener al malvado Piccolo y salvar al mundo.
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sección de pedidos -->
+    <center>
+        <h2><font color="#0000FF">Hacer un Pedido</font></h2>
+        <form>
+            <table>
+                <tr>
+                    <td><font color="#006600">Nombre:</font></td>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td><font color="#006600">Email:</font></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><font color="#006600">Película:</font></td>
+                    <td>
+                        <select name="pelicula">
+                            <option value="pelicula1">Película 1</option>
+                            <option value="pelicula2">Película 2</option>
+                            <option value="pelicula3">Película 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font color="#006600">Cantidad:</font></td>
+                    <td><input type="number" name="cantidad" min="1" value="1"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" value="Hacer Pedido">
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
